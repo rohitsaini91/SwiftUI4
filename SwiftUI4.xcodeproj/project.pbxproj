@@ -13,6 +13,7 @@
 		22A828E324A9B9580092C5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A828E224A9B9580092C5A4 /* Assets.xcassets */; };
 		22A828E624A9B9580092C5A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A828E524A9B9580092C5A4 /* Preview Assets.xcassets */; };
 		22A828E924A9B9580092C5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A828E724A9B9580092C5A4 /* LaunchScreen.storyboard */; };
+		22A828F224A9B97C0092C5A4 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A828F124A9B97C0092C5A4 /* SignUpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		22A828E524A9B9580092C5A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22A828E824A9B9580092C5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22A828EA24A9B9580092C5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A828F124A9B97C0092C5A4 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		22A828DB24A9B9550092C5A4 /* SwiftUI4 */ = {
 			isa = PBXGroup;
 			children = (
+				22A828F024A9B9620092C5A4 /* Model */,
 				22A828DC24A9B9550092C5A4 /* AppDelegate.swift */,
 				22A828DE24A9B9550092C5A4 /* SceneDelegate.swift */,
 				22A828E024A9B9550092C5A4 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				22A828E524A9B9580092C5A4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22A828F024A9B9620092C5A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22A828F124A9B97C0092C5A4 /* SignUpViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			files = (
 				22A828DD24A9B9550092C5A4 /* AppDelegate.swift in Sources */,
 				22A828DF24A9B9550092C5A4 /* SceneDelegate.swift in Sources */,
+				22A828F224A9B97C0092C5A4 /* SignUpViewModel.swift in Sources */,
 				22A828E124A9B9550092C5A4 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
